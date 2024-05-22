@@ -32,12 +32,12 @@ Here is the list of R packages to install for this tutorial:
 * Data management and visualization: 
 `tidyverse`, `DT`, `gridExtra`, and `dslabs` (Rafa Irizarry’s datasets for his Data Science book!). 
 ```{r, eval=F}
-install.packages(c(tidyverse, DT, gridExtra, dslabs))
+install.packages(c("tidyverse", "DT", "gridExtra", "dslabs"))
 ```
 
 * Machine learning: `caret`, `e1071`, `rpart`, `neuralnet`
 ```{r, eval=F}
-install.packages(c(caret, e1071, rpart, neuralnet))
+install.packages(c("caret", "e1071", "rpart", "neuralnet"))
 ```
 
 And download (using R) this dataset (from the Elements of Statistical Learning book) and put it in your working directory: 
@@ -105,7 +105,7 @@ A **Computer Algorithm** is a sequence of actions that are “self-contained”
 Machine learning algorithms are generally classified into two categories:
 
 1. **Supervised:** Outcomes used to create the predictor, e.g., classification.
-2. **Unsupervised:** Don't know outcomes, rather interestedin discovering groups, e.g., clustering.
+2. **Unsupervised:** Don't know outcomes, rather interested in discovering groups, e.g., clustering.
 
 ## Formal definitions
 \Large

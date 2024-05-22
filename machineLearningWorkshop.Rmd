@@ -82,9 +82,12 @@ implement a package through `caret`, you still need to install the library. For 
 
 ```{r}
 height_glm <- train(sex ~ height, method = "glm", data=train_set)
+# Training Accuracy
 confusionMatrix(predict(height_glm, test_set), 
                 test_set$sex)
-
+# Testing Accuracy
+confusionMatrix(predict(height_glm, test_set), 
+                test_set$sex)
 ```
 
 
